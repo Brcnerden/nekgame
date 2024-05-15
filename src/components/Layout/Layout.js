@@ -1,9 +1,10 @@
 import React from "react";
+import { Header } from "../Header/Header";
 
 export const Layout = ({ children }) => {
   return (
     <div className="font-inter">
-      <header>header</header>
+      <Header />
       {children}
       <footer>footer</footer>
     </div>

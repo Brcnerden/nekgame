@@ -7,6 +7,10 @@ export const HomePage = () => {
     <div>
       <Banner />
       <Icons.Shield />
+      <Icons.man />
+      <Icons.instant />
+      <Icons.time />
+      <Icons.carrinho />
     </div>
   );
 };
