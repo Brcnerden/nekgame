@@ -19,7 +19,7 @@ export const Middle = () => {
                   className="w-full h-10 py-2 px-2 pl-10 bg-purple300 brightness-125 text-sm text-defaultText rounded-xl outline-none"
                   placeholder="Search for Games"
                 />
-                <Icons.search className="absolute top-0 bottom-0 left-2 m-auto w-6 h-6" />
+                <Icons.Search className="absolute top-0 bottom-0 left-2 m-auto w-6 h-6" />
               </div>
             </div>
           </div>
@@ -30,16 +30,16 @@ export const Middle = () => {
                   <span className="text-sm"></span>
                   <Image
                     src="/images/flag.jpeg"
-                    width={40}
-                    height={40}
+                    width={28}
+                    height={16}
                     alt="flag"
                   />
-                  <span>USD</span>
+                  <span className="text-sm font-semibold">USD</span>
                 </button>
               </div>
               <div className="w-auto h-10 p-4 flex items-center justify-center bg-blue500 rounded-xl hover:bg-blue500/50 transition duration-300 ease-in-out">
                 <button>
-                  <Icons.man />
+                  <Icons.Man />
                 </button>
               </div>
               <div className="w-auto relative h-10 p-4 flex items-center justify-center bg-blue500 rounded-xl hover:bg-blue500/50 transition duration-300 ease-in-out">
@@ -51,7 +51,7 @@ export const Middle = () => {
                       </span>
                     </div>
                   </div>
-                  <Icons.carrinho />
+                  <Icons.Carrinho />
                 </a>
               </div>
             </div>

@@ -1,21 +1,23 @@
 import Shield from "./svgs/shield.svg";
-import time from "./svgs/time.svg";
-import instant from "./svgs/instant.svg";
-import man from "./svgs/man.svg";
-import carrinho from "./svgs/carrinho.svg";
-import search from "./svgs/search.svg";
+import Time from "./svgs/time.svg";
+import Instant from "./svgs/instant.svg";
+import Man from "./svgs/man.svg";
+import Carrinho from "./svgs/carrinho.svg";
+import Search from "./svgs/search.svg";
 import Nekgame from "./svgs/nekgame_logo.svg";
+import Arrow from "./svgs/arrow.svg";
 
 const createIcons = (map) => map;
 
 const Icons = createIcons({
   Shield,
-  time,
-  instant,
-  man,
-  carrinho,
-  search,
+  Time,
+  Instant,
+  Man,
+  Carrinho,
+  Search,
   Nekgame,
+  Arrow,
 });
 
 export default Icons;

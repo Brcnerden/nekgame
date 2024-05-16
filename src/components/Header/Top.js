@@ -12,12 +12,12 @@ export const Top = () => {
               <span className="text-xs">|</span>
             </div>
             <div className="flex gap-1 font-semibold">
-              <Icons.time />
+              <Icons.Time />
               <span className="text-xs ">7/24 Live Support </span>
               <span className="text-xs">|</span>
             </div>
             <div className="flex gap-1 font-semibold">
-              <Icons.instant />
+              <Icons.Instant />
               <span className="text-xs ">Instant Delivery</span>
             </div>
           </div>
