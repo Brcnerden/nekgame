@@ -4,14 +4,14 @@ import Image from "next/image";
 export const Middle = () => {
   return (
     <div className=" bg-purple300">
-      <div className="w-full  mx-auto max-w-[976px] flex text-white h-auto py-4 xl:py-0 lg:py-0 md:py-0 xl:h-16 lg:h-16 md:h-16">
-        <div className="flex  items-center max-md:w-full">
+      <div className="w-full max-md:flex-col  mx-auto max-w-[976px] flex text-white h-auto py-4 xl:py-0 lg:py-0 md:py-0 xl:h-16 lg:h-16 md:h-16">
+        <div className="flex max-md:justify-center  items-center max-md:w-full">
           <a href="/">
             <Icons.Nekgame className=" w-[86px] h-[48px]" />
           </a>
         </div>
 
-        <div className=" flex flex-1 px-2">
+        <div className=" flex flex-1 px-2 max-md:justify-center">
           <div className=" flex-1 px-8 ">
             <div className="w-full h-full hidden xl:flex lg:flex md:flex items-center justify-center ">
               <div className="w-full h-full flex items-center justify-center relative">

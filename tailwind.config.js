@@ -17,6 +17,8 @@ module.exports = {
         purple300: "#5432d3",
         blue400: "#241e92",
         blue500: "#1a166d",
+        blue700: "#0c0a32",
+        beige100: "#817e7e33",
       },
     },
   },
