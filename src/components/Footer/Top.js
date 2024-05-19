@@ -3,7 +3,7 @@ import Icons from "@/icons";
 export const Top = () => {
   return (
     <>
-      <div className="w-full  bg-blue700">
+      <div className="w-full  bg-blue700 max-md:hidden">
         <div className="max-w-[976px] justify-between w-full mx-auto py-2 text-white">
           <div className="flex ">
             <div className="px-5">Visa</div>
@@ -11,7 +11,7 @@ export const Top = () => {
           </div>
         </div>
       </div>
-      <div className="w-full  bg-blue400">
+      <div className="w-full ">
         <div className="max-w-[976px] w-full mx-auto flex  text-white">
           <div className="flex py-5 flex-wrap ">
             <div className="px-5 ">

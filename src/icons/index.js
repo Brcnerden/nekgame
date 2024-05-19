@@ -7,6 +7,8 @@ import Search from "./svgs/search.svg";
 import Nekgame from "./svgs/nekgame_logo.svg";
 import Arrow from "./svgs/arrow.svg";
 import Facebook from "./svgs/facebook.svg";
+import Close from "./svgs/close.svg";
+import Menu from "./svgs/menu.svg";
 
 const createIcons = (map) => map;
 
@@ -20,6 +22,8 @@ const Icons = createIcons({
   Nekgame,
   Arrow,
   Facebook,
+  Close,
+  Menu,
 });
 
 export default Icons;
