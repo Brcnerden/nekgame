@@ -46,7 +46,7 @@ export const Middle = ({ menuOpen }) => {
                 <button className="flex items-center justify-start gap-2">
                   <span className="text-sm"></span>
                   <Image
-                    src="/images/flag.jpeg"
+                    src="/assest/images/flag.jpeg"
                     width={28}
                     height={16}
                     alt="flag"

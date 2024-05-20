@@ -9,6 +9,8 @@ import Arrow from "./svgs/arrow.svg";
 import Facebook from "./svgs/facebook.svg";
 import Close from "./svgs/close.svg";
 import Menu from "./svgs/menu.svg";
+import ArrowLeft from "./svgs/arrowLeft.svg";
+import ArrowRight from "./svgs/arrowRight.svg";
 
 const createIcons = (map) => map;
 
@@ -24,6 +26,8 @@ const Icons = createIcons({
   Facebook,
   Close,
   Menu,
+  ArrowLeft,
+  ArrowRight,
 });
 
 export default Icons;
