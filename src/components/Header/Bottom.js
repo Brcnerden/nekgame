@@ -3,16 +3,16 @@ import Icons from "@/icons";
 export const Bottom = ({ isMenuOpen, menuClose }) => {
   return (
     <div
-      className={`"${
+      className={`max-md:fixed max-md:top-0 max-md:left-0 max-md:w-full max-md:h-full  transition-[transform,opacity] duration-300 ease-in-out transform  ${
         isMenuOpen
-          ? " max-md:fixed max-md:top-0 0 max-md:w-full max-md:h-full  max-md:opacity-100"
-          : " "
-      } "`}
+          ? " max-md:translate-x-0 max-md:opacity-100  "
+          : " max-md:opacity-0 max-md:-translate-x-full"
+      } `}
     >
       <div className="w-full bg-blue400 max-md:bg-blue500-90 h-[48px] max-md:h-full max-md:relative  flex items-center ">
         <button
           onClick={menuClose}
-          className="absolute w-[35px] h-[35px] rounded-full border border-blue300 top-4 right-4 text-white text-center"
+          className="absolute w-[35px] h-[35px] rounded-full border border-blue300 top-4 right-4 text-white text-center md:hidden"
         >
           <Icons.Close className="mx-auto" />
         </button>

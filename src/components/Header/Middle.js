@@ -16,12 +16,14 @@ export const Middle = ({ menuOpen }) => {
 
         <div className=" flex flex-1 px-2 max-md:justify-center">
           <div
-            className={`flex-1 px-8 max-md:absolute max-md:top-full  max-md:pointer-events-none transition-opacity ${
-              isSearchOpen ? "opacity-100" : "opacity-0"
+            className={`flex-1 px-8 max-md:absolute max-md:top-full max-md:w-full max-md:p-2 max-md:pointer-events-none transition-opacity ${
+              isSearchOpen
+                ? "opacity-100 max-md:pointer-events-auto"
+                : "opacity-0"
             }`}
           >
             <div className="w-full h-full  xl:flex lg:flex md:flex items-center justify-center ">
-              <div className="w-full h-full flex items-center justify-center relative">
+              <div className="w-full h-full flex items-center justify-center relative ">
                 <input
                   className="w-full h-10 py-2 px-2 pl-10 bg-purple300 brightness-125 text-sm text-defaultText rounded-xl outline-none"
                   placeholder="Search for Games"

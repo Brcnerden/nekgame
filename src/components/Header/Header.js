@@ -4,7 +4,7 @@ import { Bottom } from "./Bottom";
 import { useState } from "react";
 
 export const Header = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(true);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const handle_Click = () => {
     setIsMenuOpen(true);

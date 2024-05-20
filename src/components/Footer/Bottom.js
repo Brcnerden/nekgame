@@ -5,16 +5,16 @@ export const Bottom = () => {
     <div className="w-full h-auto">
       <div className="max-w-[976px]  w-full text-white mx-auto">
         <div className="border-t-[1px] border-white200"></div>
-        <div className="flex justify-between items-center py-[16px] gap-4">
+        <div className="flex  items-center py-[16px] gap-4">
           <Icons.Nekgame className="w-[86px] h-[48px] max-md:hidden" />
-          <div className=" max-md:flex-col max-md:px-5 ">
-            <div className="w-auto h-auto max-md:pb-[16px]">
+          <div className=" flex flex-row max-md:flex-col max-md:px-5 ">
+            <div className="w-auto h-auto pr-5 max-md:pb-[16px]">
               <h6 className="text-xs font-normal max-md:pb-[16px]">
                 For your questions about payment and products
               </h6>
               <p className="text-xs font-bold">support@nekgame.com</p>
             </div>
-            <div className="w-auto h-auto max-md:pb-[16px]">
+            <div className="w-auto h-auto pr-5  max-md:pb-[16px]">
               <h6 className="text-xs font-normal">
                 For wholesale and other questions
               </h6>
