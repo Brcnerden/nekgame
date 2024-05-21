@@ -1,4 +1,5 @@
 import Icons from "@/icons";
+import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
 
@@ -16,10 +17,10 @@ export const Middle = ({ menuOpen }) => {
 
         <div className=" flex flex-1 px-2 max-md:justify-center">
           <div
-            className={`flex-1 px-8 max-md:absolute max-md:top-full max-md:w-full max-md:p-2 max-md:pointer-events-none transition-opacity ${
+            className={`flex-1 px-8 max-md:z-40 max-md:absolute max-md:top-full max-md:w-full max-md:p-2 max-md:pointer-events-none transition-opacity ${
               isSearchOpen
-                ? "opacity-100 max-md:pointer-events-auto"
-                : "opacity-0"
+                ? "max-md:opacity-100 max-md:pointer-events-auto"
+                : "max-md:opacity-0"
             }`}
           >
             <div className="w-full h-full  xl:flex lg:flex md:flex items-center justify-center ">
@@ -43,7 +44,7 @@ export const Middle = ({ menuOpen }) => {
                 </button>
               </div>
               <div className="w-auto h-10 p-4 flex items-center justify-center bg-blue500 rounded-xl hover:bg-blue500/50 transition duration-300 ease-in-out">
-                <button className="flex items-center justify-start gap-2">
+                <button className="flex items-center justify-start max-md:w-full px-2 gap-2">
                   <span className="text-sm"></span>
                   <Image
                     src="/assest/images/flag.jpeg"
@@ -63,9 +64,9 @@ export const Middle = ({ menuOpen }) => {
                 </button>
               </div>
               <div className="w-auto h-10 p-4 flex items-center justify-center bg-blue500 rounded-xl hover:bg-blue500/50 transition duration-300 ease-in-out">
-                <button>
+                <Link href="/login">
                   <Icons.Man />
-                </button>
+                </Link>
               </div>
               <div className="w-auto relative h-10 p-4 flex items-center justify-center bg-blue500 rounded-xl hover:bg-blue500/50 transition duration-300 ease-in-out">
                 <a>

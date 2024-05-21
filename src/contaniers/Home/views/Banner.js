@@ -6,7 +6,9 @@ const Slide1 = () => (
   <video
     className="h-full w-full object-cover"
     src="/assest/videos/videoRed.mp4"
+    poster="/assest/images/posterRed.webp"
     autoPlay
+    muted
   />
 );
 
@@ -41,7 +43,9 @@ const Slide2 = () => (
   <video
     className="h-full w-full object-cover"
     src="/assest/videos/de531f6b-a718-4592-8808-d4fad11ebce1.mp4"
+    poster="/assest/images/posterGreen.webp"
     autoPlay
+    muted
   />
 );
 const Slide4 = () => (
@@ -101,7 +105,11 @@ export const Banner = () => {
 
               <button
                 onClick={() => setActiveSlide(0)}
-                className="w-28 h-full rounded-xl relative overflow-hidden"
+                className={`w-28 h-full rounded-xl relative overflow-hidden ${
+                  activeSlide === 0
+                    ? "border-2 border-purple100"
+                    : "opacity-15 bg-black500-60"
+                }`}
               >
                 <Image
                   src="/assest/images/red.webp"
@@ -112,7 +120,11 @@ export const Banner = () => {
               </button>
               <button
                 onClick={() => setActiveSlide(1)}
-                className="w-28 h-full rounded-xl relative overflow-hidden"
+                className={`w-28 h-full rounded-xl relative overflow-hidden ${
+                  activeSlide === 1
+                    ? "border-2 border-purple100"
+                    : "opacity-15 bg-black500-60"
+                }`}
               >
                 <Image
                   className="object-cover"
@@ -123,7 +135,11 @@ export const Banner = () => {
               </button>
               <button
                 onClick={() => setActiveSlide(2)}
-                className="w-28 h-full rounded-xl relative overflow-hidden"
+                className={`w-28 h-full rounded-xl relative overflow-hidden ${
+                  activeSlide === 2
+                    ? "border-2 border-purple100"
+                    : "opacity-15 bg-black500-60"
+                }`}
               >
                 <Image
                   className="object-cover"
@@ -134,7 +150,11 @@ export const Banner = () => {
               </button>
               <button
                 onClick={() => setActiveSlide(3)}
-                className="w-28 h-full rounded-xl relative overflow-hidden"
+                className={`w-28 h-full rounded-xl relative overflow-hidden ${
+                  activeSlide === 3
+                    ? "border-2 border-purple100"
+                    : "opacity-5 bg-black500-60"
+                }`}
               >
                 <Image
                   className="object-cover"

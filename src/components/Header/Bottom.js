@@ -3,7 +3,7 @@ import Icons from "@/icons";
 export const Bottom = ({ isMenuOpen, menuClose }) => {
   return (
     <div
-      className={`max-md:fixed max-md:top-0 max-md:left-0 max-md:w-full max-md:h-full  transition-[transform,opacity] duration-300 ease-in-out transform  ${
+      className={`max-md:fixed max-md:z-50 max-md:top-0 max-md:left-0 max-md:w-full max-md:h-full  transition-[transform,opacity] duration-300 ease-in-out transform  ${
         isMenuOpen
           ? " max-md:translate-x-0 max-md:opacity-100  "
           : " max-md:opacity-0 max-md:-translate-x-full"

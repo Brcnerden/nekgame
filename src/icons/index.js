@@ -11,6 +11,7 @@ import Close from "./svgs/close.svg";
 import Menu from "./svgs/menu.svg";
 import ArrowLeft from "./svgs/arrowLeft.svg";
 import ArrowRight from "./svgs/arrowRight.svg";
+import User from "./svgs/user.svg";
 
 const createIcons = (map) => map;
 
@@ -28,6 +29,7 @@ const Icons = createIcons({
   Menu,
   ArrowLeft,
   ArrowRight,
+  User,
 });
 
 export default Icons;
