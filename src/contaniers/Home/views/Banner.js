@@ -39,8 +39,7 @@ const Slide3 = () => (
 
 const Slide2 = () => (
   <video
-    className="h-full w-full object-cover
-    "
+    className="h-full w-full object-cover"
     src="/assest/videos/de531f6b-a718-4592-8808-d4fad11ebce1.mp4"
     autoPlay
   />
@@ -94,7 +93,7 @@ export const Banner = () => {
           {activeSlide === 2 && <Slide3 />}
           {activeSlide === 3 && <Slide4 />}
 
-          <div className="w-full h-20 py-2 px-2 absolute bottom-0 text-white left-0">
+          <div className="w-full h-20 py-2 px-2 bg-white-10 absolute bottom-0 text-white left-0">
             <div className="w-full h-full flex items-center z-10 justify-center gap-2">
               <button onClick={handlePrv}>
                 <Icons.ArrowLeft />
