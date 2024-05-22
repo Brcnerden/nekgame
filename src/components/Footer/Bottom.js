@@ -3,7 +3,7 @@ import Icons from "@/icons";
 export const Bottom = () => {
   return (
     <div className="w-full h-auto">
-      <div className="max-w-[976px]  w-full text-white mx-auto">
+      <div className="max-w-safe  w-full text-white mx-auto">
         <div className="border-t-[1px] border-white200"></div>
         <div className="flex  items-center py-[16px] gap-4">
           <Icons.Nekgame className="w-[86px] h-[48px] max-md:hidden" />

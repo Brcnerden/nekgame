@@ -8,7 +8,7 @@ export const Middle = ({ menuOpen }) => {
 
   return (
     <div className="w-full bg-purple300 relative">
-      <div className="w-full max-md:flex-col  mx-auto max-w-[976px] flex text-white h-auto py-4 xl:py-0 lg:py-0 md:py-0 xl:h-16 lg:h-16 md:h-16">
+      <div className="w-full max-md:flex-col  mx-auto max-w-safe flex text-white h-auto py-4 xl:py-0 lg:py-0 md:py-0 xl:h-16 lg:h-16 md:h-16">
         <div className="flex max-md:justify-center max-md:mb-4 items-center max-md:w-full">
           <a href="/">
             <Icons.Nekgame className=" w-[86px] h-[48px]" />

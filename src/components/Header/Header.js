@@ -16,11 +16,11 @@ export const Header = () => {
 
   return (
     <>
-      <div>
+      <header className="relative z-20 ">
         <Top />
         <Middle menuOpen={handle_Click} />
         <Bottom menuClose={handle_Click_Close} isMenuOpen={isMenuOpen} />
-      </div>
+      </header>
     </>
   );
 };

@@ -32,6 +32,9 @@ module.exports = {
         "blue300-50": "rgba(84, 50, 211, .5)",
         "blue300-80": "rgba(84, 50, 211, .8)",
       },
+      maxWidth: {
+        safe: "976px",
+      },
     },
   },
   plugins: [],

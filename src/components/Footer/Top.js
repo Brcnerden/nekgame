@@ -4,7 +4,7 @@ export const Top = () => {
   return (
     <>
       <div className="w-full  bg-blue700 max-md:hidden">
-        <div className="max-w-[976px] justify-between w-full mx-auto py-2 text-white">
+        <div className="max-w-safe justify-between w-full mx-auto py-2 text-white">
           <div className="flex ">
             <div className="px-5">Visa</div>
             <div>Master</div>
@@ -12,7 +12,7 @@ export const Top = () => {
         </div>
       </div>
       <div className="w-full ">
-        <div className="max-w-[976px] w-full mx-auto flex  text-white">
+        <div className="max-w-safe w-full mx-auto flex  text-white">
           <div className="flex py-5 flex-wrap ">
             <div className="px-5 ">
               <h6 className="text-sm font-bold leading-8">Nekgame</h6>
