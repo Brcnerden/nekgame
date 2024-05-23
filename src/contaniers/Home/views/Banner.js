@@ -25,7 +25,7 @@ const Slide3 = () => (
         <span className="text-sm font-medium text-white text-center">
           Enjoy the Game with Valorant
         </span>
-        <p className="font-bold text-6xl text-white text-center mt-2">
+        <p className="font-bold text-6xl max-md:text-4xl text-white text-center mt-2">
           Change the game with the Transfiguration set
         </p>
         <button

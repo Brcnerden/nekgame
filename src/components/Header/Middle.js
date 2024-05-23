@@ -69,7 +69,7 @@ export const Middle = ({ menuOpen }) => {
                 </Link>
               </div>
               <div className="w-auto relative h-10 p-4 flex items-center justify-center bg-blue500 rounded-xl hover:bg-blue500/50 transition duration-300 ease-in-out">
-                <a>
+                <Link href="/basket">
                   <div className="absolute -top-1 -right-1">
                     <div className="min-w-[20px] min-h-[20px] py-0 px-1 max-w-full max-h-full flex items-center justify-center bg-purple100 rounded-lg">
                       <span className="text-back text-[11px] font-extrabold">
@@ -77,8 +77,9 @@ export const Middle = ({ menuOpen }) => {
                       </span>
                     </div>
                   </div>
+
                   <Icons.Carrinho />
-                </a>
+                </Link>
               </div>
             </div>
           </div>

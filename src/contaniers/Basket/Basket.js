@@ -2,7 +2,7 @@ import Icons from "@/icons";
 import Image from "next/image";
 import { useState } from "react";
 
-export default function DetailPage() {
+export default function BasketPage() {
   const [count, setCount] = useState(0);
 
   const increase_click = () => setCount(count + 1);
