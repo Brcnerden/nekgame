@@ -108,7 +108,7 @@ export const Banner = () => {
                 className={`w-28 h-full rounded-xl relative overflow-hidden ${
                   activeSlide === 0
                     ? "border-2 border-purple100"
-                    : "opacity-15 bg-black500-60"
+                    : "opacity-55 bg-black500-60"
                 }`}
               >
                 <Image
@@ -123,7 +123,7 @@ export const Banner = () => {
                 className={`w-28 h-full rounded-xl relative overflow-hidden ${
                   activeSlide === 1
                     ? "border-2 border-purple100"
-                    : "opacity-15 bg-black500-60"
+                    : "opacity-55 bg-black500-60"
                 }`}
               >
                 <Image
@@ -138,7 +138,7 @@ export const Banner = () => {
                 className={`w-28 h-full rounded-xl relative overflow-hidden ${
                   activeSlide === 2
                     ? "border-2 border-purple100"
-                    : "opacity-15 bg-black500-60"
+                    : "opacity-55 bg-black500-60"
                 }`}
               >
                 <Image
@@ -153,7 +153,7 @@ export const Banner = () => {
                 className={`w-28 h-full rounded-xl relative overflow-hidden ${
                   activeSlide === 3
                     ? "border-2 border-purple100"
-                    : "opacity-5 bg-black500-60"
+                    : "opacity-55 bg-black500-60"
                 }`}
               >
                 <Image

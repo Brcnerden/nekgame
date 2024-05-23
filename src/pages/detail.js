@@ -18,7 +18,6 @@ export default function DetailPage() {
   return (
     <div className="max-w-[940px] w-full h-auto flex max-md:flex-col max-md:items-center mx-auto ">
       <div className=" bg-blue300-50  text-white w-full h-full mt-4 mx-2 p-2 rounded-xl">
-        {/* //başlangıc */}
         <div className="w-full h-auto flex justify-between p-2 rounded-xl bg-blue600-50">
           <div className="text-sm font-medium text-white">
             Products in My Cart
@@ -28,13 +27,10 @@ export default function DetailPage() {
             <Icons.Garbage />
           </div>
         </div>
-        {/* bıtıs */}
-        {/* 2 satır */}
         <div className="flex  max-md:flex-col-reverse items-center">
           <div className=" bg-blue600-50 flex items-center max-md:w-full justify-center mt-5  mr-2 rounded-xl w-10 h-10">
             <Icons.Garbage />
           </div>
-          {/* Garbage bitis */}
           <div className="mt-5 bg-blue600-50   flex items-center rounded-xl h-auto w-full">
             <div className="w-full h-auto max-md:flex-col   py-2 px-2 flex items-center">
               <Image
@@ -42,10 +38,11 @@ export default function DetailPage() {
                 width={80}
                 height={80}
                 className="rounded-xl"
+                alt="bronzePremium"
               />
 
-              <div className=" flex-1 max-md:w-full max-md:mb-2 h-full  max-md:px-2 py-6 px-2 flex    justify-center bg-blue600 rounded-xl items-center">
-                <div className="text-sm   xl:text-lg lg:text-lg overflow-hidden font-medium">
+              <div className=" flex-1 max-md:w-full max-md:mb-2 h-full mr-2 max-md:px-2 py-6 px-2 flex  max-md:py-2   justify-center bg-blue600 rounded-xl items-center">
+                <div className="text-sm   xl:text-lg lg:text-lg overflow-hidden font-medium ">
                   Knight Online Bronze
                 </div>
               </div>
@@ -56,7 +53,7 @@ export default function DetailPage() {
                 >
                   +
                 </button>
-                <div className="bg-blue300-50 flex justify-center px-3  rounded-xl w-full h-8  text-center">
+                <div className="bg-blue300-50 flex justify-center items-center px-3  rounded-xl w-full h-8  text-center">
                   {count}
                 </div>
                 <button
@@ -66,7 +63,7 @@ export default function DetailPage() {
                   -
                 </button>
               </div>
-              <div className=" h-full max-md:w-full max-md:px-2 py-6 px-2 flex items-center justify-center bg-blue600 rounded-xl">
+              <div className=" h-full max-md:w-full max-md:px-2 max-md:py-2 py-6 px-2 flex items-center justify-center bg-blue600 rounded-xl">
                 <p className="text-xl font-medium text-white">$ 8.76</p>
               </div>
             </div>

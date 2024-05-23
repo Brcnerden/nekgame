@@ -114,7 +114,7 @@ export const Bottom = ({ isMenuOpen, menuClose }) => {
               className="  py-3 "
             >
               <span className="text-sm font-medium ">Games</span>
-              <Icons.Arrow className="inline-block" />
+              <Icons.Arrow className="inline-block group-hover:rotate-180" />
             </button>
             <div
               ref={menuParentRef}

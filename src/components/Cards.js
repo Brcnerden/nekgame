@@ -10,6 +10,7 @@ export const Cards = ({ image }) => {
             width={178}
             height={228}
             className="object-cover"
+            alt="games"
           />
         </a>
 
